@@ -467,7 +467,7 @@ body #loader-wrapper {
 #lionhero .item .welcome-text {
     font-family: Unna;
     left: 20%;
-    padding-left: 70px;
+    padding-left: 0px;
     position: absolute;
     text-align: left;
     top: 50%;
