@@ -75,12 +75,14 @@ $(document).ready(function() {
 
     $('#pagepiling').pagepiling({
         menu: '#menu',
-        anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7'],
+        // anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7'],
+        anchors: ['page1', 'page2', 'page3', 'page7'],
         navigation: {
             'textColor': '#f2f2f2',
             'bulletsColor': '#ccc',
             'position': 'right',
-            'tooltips': ['DUNE PHOTO STUDIO', 'PORTFOLIO', 'ABOUT', 'SERVICES', 'PRICES', 'BLOG', 'CONTACT']
+            // 'tooltips': ['DUNE PHOTO STUDIO', 'PORTFOLIO', 'ABOUT', 'SERVICES', 'PRICES', 'BLOG', 'CONTACT']
+            'tooltips': ['HOME', 'PORTFOLIO', 'ABOUT', 'CONTACT']
         }
     });
 
